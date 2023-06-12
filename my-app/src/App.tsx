@@ -4,21 +4,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="LogIn">
+      <div className="LoginBox">
+        <div className="LoginHeader">
+          Login
+        </div>
+        <div className="inputs">
+          <input className="email" placeholder="Enter your email"/>
+          <input className="password" placeholder="Enter your password" type='password'/>
+          
+        </div>
+        <div style={{display: "flex", justifyContent: "center"}}>
+          <button className="submitbutton">Login</button>
+        </div>
+      </div>
     </div>
   );
 }
