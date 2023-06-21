@@ -24,7 +24,7 @@ Back-end ASP.NET Core Web API project.
 
 Install these packages:
 
-`Install-Package Microsoft.EntityFrameworkCore.SqlServer
-Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design
-Install-Package Microsoft.EntityFrameworkCore.Tools`
+`Install-Package Microsoft.EntityFrameworkCore.SqlServer`
+`Install-Package Microsoft.VisualStudio.Web.CodeGeneration.Design`
+`Install-Package Microsoft.EntityFrameworkCore.Tools`
 
