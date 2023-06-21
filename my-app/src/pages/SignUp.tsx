@@ -33,6 +33,16 @@ function SignUp() {
             <h1>SIGN UP</h1>
           </Box>
           <Box sx={{ padding: '20px' }}>
+          <TextField
+              sx={{
+                width: '100%',
+                background: 'white',
+                borderRadius: '6px',
+                marginBottom: '20px',
+              }}
+              label="Name"
+              variant="outlined"
+            />
             <TextField
               sx={{
                 width: '100%',
