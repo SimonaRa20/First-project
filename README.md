@@ -30,4 +30,10 @@ Install these packages:
 
 `Install-Package Microsoft.EntityFrameworkCore.Tools`
 
+In Microsoft SQL Server Management Studio created new database 'ProjectDB'.
+
+In Package Manager Console wrote:
+
+`Scaffold-DbContext “Server=localhost\sqlexpress; Database=ProjectDB;Trusted_Connection=True;TrustServerCertificate=True;” Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models`
+
 
